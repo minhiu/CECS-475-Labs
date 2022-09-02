@@ -66,7 +66,7 @@ namespace Stock
                 String line = BrokerName.PadRight(16) + newStock.StockName.PadRight(16) + newStock.CurrentValue.ToString().PadRight(16) + newStock.NumChanges.ToString().PadRight(10) + DateTime.Now;
                 Console.WriteLine(line);
                 //Display the output to the file 
-                using (StreamWriter outputFile = new StreamWriter(destPath, false))
+                using (StreamWriter outputFile = new StreamWriter(destPath, true))
                 {
                     outputFile.WriteLine(line);
                 }
