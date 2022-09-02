@@ -8,24 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/minhiu/.nuget/packages/": {}
+    "C:\\Users\\it\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/minhiu/Projects/CECS-475-Lab-1/CECS-475-Lab-1/CECS-475-Lab-1.csproj",
+      "projectUniqueName": "C:\\Users\\it\\Source\\Repos\\CECS-475-Labs\\CECS-475-Lab-1\\CECS-475-Lab-1.csproj",
       "projectName": "CECS-475-Lab-1",
-      "projectPath": "/Users/minhiu/Projects/CECS-475-Lab-1/CECS-475-Lab-1/CECS-475-Lab-1.csproj",
-      "packagesPath": "/Users/minhiu/.nuget/packages/",
-      "outputPath": "/Users/minhiu/Projects/CECS-475-Lab-1/CECS-475-Lab-1/obj/",
+      "projectPath": "C:\\Users\\it\\Source\\Repos\\CECS-475-Labs\\CECS-475-Lab-1\\CECS-475-Lab-1.csproj",
+      "packagesPath": "C:\\Users\\it\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\it\\Source\\Repos\\CECS-475-Labs\\CECS-475-Lab-1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/minhiu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\it\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
