@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CECS-475-Lab-3",
+    "\\CECS-475-Lab-3\\ConsoleClient",
+    "\\CECS-475-Lab-3\\Mm.BusinessLayer",
+    "\\CECS-475-Lab-3\\Mm.DataAccessLayer"
   ],
+  "SelectedNode": "\\CECS-475-Lab-3\\ConsoleClient\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

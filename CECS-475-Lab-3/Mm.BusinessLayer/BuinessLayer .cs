@@ -1,4 +1,13 @@
-﻿using DomainModel;
+﻿/*
+    Danny Nguyen    100
+    Hieu Pham       100
+    Angel Cueva     100
+    Brian Poon      100
+    Nathan Lai      100
+    Dylan Huynh     100
+*/
+
+using DomainModel;
 using Mm.DataAccessLayer;
 using System.Collections.Generic;
 
@@ -59,6 +68,7 @@ namespace Mm.BusinessLayer
 
         public IList<Course> GetCoursesByTeacherId(int teacherId)
         {
+            // Changed c.Teacher.TeacherId to c.TeacherId
             return _courseRepository.GetList(c => c.TeacherId.Equals(teacherId));
         }
 
